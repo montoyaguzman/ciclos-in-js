@@ -4,8 +4,12 @@ Es una secuencia de instrucciones de código que se ejecuta repetidas veces, has
 
 Los 3 bucles más utilizados en programación son: 
 
-
-
 * While.
 * For.
 * Do-while.
+
+
+
+**Iteración**
+
+Es una "vuelta" de un ciclo.
