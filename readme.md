@@ -1,4 +1,6 @@
-**Operadores**
+# Sintesis de la asesoria
+
+## **Operadores**
 
 Simbolos que indican como se manipulan los elementos (operandos).
 
@@ -66,7 +68,7 @@ for (let i=0; i < numbers.length; i++) {
 	result -= numbers[i];
 }
 
-**Ciclos o bucles**
+## **Ciclos o bucles**
 
 Es una secuencia de instrucciones de código que se ejecuta repetidas veces, hasta que la condición asignada a dicho bucle deja de cumplirse.
 
@@ -117,6 +119,32 @@ Se usa en condiciones para terminar un ciclo.
 
 Se usa en condiciones para saltar una iteración o vuelta de un ciclo.
 
-**Condiciones**
+## **Condiciones**
 
 En programación son muy usadas para comprobar reglas y son asociativas, es importante asociarlas correctamente con AND (&&) u OR (||) para evitar obtener resultados distintos a lo esperado.
+
+**Tabla de verdad de AND**
+
+```
+V && V = V
+V && F = F
+F && V =F
+F && F= F
+```
+
+
+**Tabla de verdad de OR**
+
+```
+V || V = V
+V || F = V
+F || V = V
+F || F = F
+```
+
+**Tabla de verdad de NEGATION**
+
+```
+!V = F
+!F = V
+```
