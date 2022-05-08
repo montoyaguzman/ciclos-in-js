@@ -66,7 +66,6 @@ for (let i=0; i < numbers.length; i++) {
 	result -= numbers[i];
 }
 
-
 **Ciclos o bucles**
 
 Es una secuencia de instrucciones de código que se ejecuta repetidas veces, hasta que la condición asignada a dicho bucle deja de cumplirse.
@@ -85,26 +84,27 @@ Es una "vuelta" de un ciclo.
 
 ```
 let i = 0; // valorInicial
-while (i < numbers.length) { // condicion
+while (i < myArray.length) { // condicion
 	// sentences
+	i++; // razonDeCambio
 }
 ```
 
 **Sintáxis Do While**
 
 ```
-// valorInicial
+let i = 0; // valorInicial
 do {
 	// sentences (siempre se ejecuta al menos una vez)
-	// razonDeCambio
-} while () // condicion
+	i++; // razonDeCambio
+} while (i < myArray.length) // condicion
 ```
 
 **Sintáxis de For**
 
 ```
 // (valorInicial; condicion; razonDeCambio)
-for (let i=0; i < numbers.length; i++) {
+for (let i=0; i < myArray.length; i++) {
 	// sentences
 }
 ```
@@ -116,8 +116,6 @@ Se usa en condiciones para terminar un ciclo.
 **Continue**
 
 Se usa en condiciones para saltar una iteración o vuelta de un ciclo.
-
-
 
 **Condiciones**
 
