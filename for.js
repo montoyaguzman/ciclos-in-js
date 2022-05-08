@@ -15,3 +15,10 @@ for (let i = 0; i < numbers.length; i=i+2) {
   // debugger;
   console.log(numbers[i]);
 }
+
+let j = 0;
+while (j < numbers.length) { 
+  // debugger;
+  console.log(numbers[j]);
+  j=j+2;
+}

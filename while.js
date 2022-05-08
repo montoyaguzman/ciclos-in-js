@@ -9,3 +9,14 @@ while (i < matters.length) { // condicion
    console.log(matters[i]);
    i++; // razon de cambio
 }
+
+const fruits = ['apple', 'tangerine', 'banana'];
+let k = 0;
+while(k < fruits.length) {
+    console.log(fruits[k]);
+    k++;
+}
+
+for(let l = 0; l < fruits.length; l++) {
+    console.log(fruits[l]);
+}
